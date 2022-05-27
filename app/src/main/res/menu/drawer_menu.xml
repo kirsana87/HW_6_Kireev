@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item_notes_list"
+            android:icon="@drawable/ic_notes_list"
+            android:title="@string/notes_list_drawer_menu" />
+
+        <item
+            android:id="@+id/drawer_item_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings_drawer_menu" />
+
+        <item
+            android:id="@+id/drawer_item_about_app"
+            android:icon="@drawable/ic_about_app"
+            android:title="@string/about_app_drawer_menu" />
+    </group>
+</menu>
